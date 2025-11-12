@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZIGURATE</title>
+
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="./zigurate.css" />
+  </head>
+
+  <body>
+    <!-- title-container -->
+    <div class="title-container">
+      <p class="title display" id="title-text">SECULODI</p>
+    </div>
+
+    <!-- imagem principal -->
+    <div class="img-container rotate">
+      <div class="img rotate">
+        <img
+          title="Zigurate"
+          src="./images/ziggurat-black.png"
+          alt="Ziggurat"
+        />
+      </div>
+    </div>
+
+    <!-- container de conversores -->
+    <div class="conversor-container">
+      <div class="output-text-container">
+        <button
+          class="conversor display btn"
+          id="entrybtn"
+          onclick="criptoAll()"
+        >
+          †
+        </button>
+      </div>
+
+      <div class="output-text-container">
+        <button
+          class="conversor display btn"
+          id="bilateral-all-btn"
+          onclick="bilateralAll()"
+        >
+          †
+        </button>
+        <button
+          class="conversor display btn"
+          id="radial-all-btn"
+          onclick="radialAll()"
+        >
+          †
+        </button>
+      </div>
+
+      <div class="conversor-container">
+        <div>
+          <button id="whitebtn" class="display btn" onclick="white()">†</button>
+          <button id="redbtn" class="display btn" onclick="red()">†</button>
+          <button id="goldbtn" class="display btn" onclick="gold()">†</button>
+        </div>
+
+        <div>
+          <button id="bluebtn" class="display btn" onclick="blue()">†</button>
+          <button id="greenbtn" class="display btn" onclick="green()">†</button>
+          <button id="purplebtn" class="display btn" onclick="purple()">
+            †
+          </button>
+          <button id="blackbtn" class="display btn" onclick="black()">†</button>
+        </div>
+
+        <div>
+          <button id="sizebtn" class="display btn" onclick="sizeAll()">
+            †
+          </button>
+
+          <!-- botão que é link para homepage -->
+          <input
+            type="button"
+            class="btn"
+            onClick="location.href='./zigurate.html'"
+            value="†"
+          />
+
+          <button
+            id="timerbtn"
+            class="display btn"
+            onclick="startColorChanging()"
+          >
+            †
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- navbar -->
+    <ul>
+      <li>
+        <a href="./zigurate_texto.html" id="navbar1" class="display">DIXDA</a>
+      </li>
+      <li>
+        <a href="./zigurate_som.html" id="navbar2" class="display">ZAN</a>
+      </li>
+      <li>
+        <a href="./zigurate_imagem.html" id="navbar3" class="display">ENOCIN</a>
+      </li>
+    </ul>
+
+    <!-- texto -->
+    <div class="conversor-container">
+      <div id="introducao1" class="display body">
+        A mani seculodi zulci gana uno livilîmgeo emtelido oa ibezátea péprega
+        gamhigeta gan Dalli ti Popir i gomamegonimdi fezda gana a neda vumtotal
+        bolo o ixezdîmgeo ti tevilimdiz rémcuoz. Oduornimdi zopinaz kui izdo
+        hezdáleo pozieo-zi ma seculodi poperámega ti Idinimomqe, toé o
+        uderesoçõa tizdi mani. Mun blezno idenarácega, seculodi fin ta ogoteoma
+        sekkulodun kui bal zuo fis tilefo to boroflo sokālun i kui zecmevego
+        “zaplizzoel, au gamzdluel orda”.
+      </div>
+
+      <div><br /></div>
+
+      <div id="introducao2" class="display body">
+        A Zimhal tizgiu bolo fil o getoti i o dalli kui izdofon o rifomdol.
+        “Fijonaz zi ezda í a kui iriz jó zõa gobosiz ti vosil; zimta un zá bafa,
+        gan uno zá rémcuo, mõa hofiló renediz bolo duta a kui auzolin vosil.
+        Fonaz tizgil i vosil gan kui o rémcuo tiriz ganigi o tevilimgeol-zi, ti
+        valno kui umz mõa imdimton az audlaz.”
+      </div>
+
+      <!-- input de texto -->
+      <div class="input-text-container">
+        <textarea title="editor de texto" id="texto-original"></textarea>
+      </div>
+
+      <!-- botões de transformação -->
+      <div class="output-text-container">
+        <button
+          class="conversor display btn"
+          id="criptobtn"
+          onclick="criptoTxt()"
+        >
+          †
+        </button>
+      </div>
+
+      <div class="output-text-container">
+        <button
+          class="conversor display btn"
+          id="bilateralbtn"
+          onclick="bilateralTxt()"
+        >
+          †
+        </button>
+      </div>
+
+      <div class="output-text-container">
+        <button
+          class="conversor display btn"
+          id="radialbtn"
+          onclick="radialTxt()"
+        >
+          †
+        </button>
+      </div>
+
+      <!-- saída de texto -->
+      <textarea title="editor de texto" id="texto-modificado"></textarea>
+    </div>
+
+    <!-- Link para o JS -->
+    <script src="./zigurate.js"></script>
+  </body>
+</html>
