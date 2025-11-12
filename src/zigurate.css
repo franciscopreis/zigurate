@@ -107,19 +107,19 @@ li a {
 @font-face {
   font-family: 'ideograma-bilateral';
   src:
-    url(../fonts/ideogramas-bi/ideogramas_bi-regular-webfont.woff)
-      format('woff'),
-    url(../fonts/ideogramas-bi/ideogramas_bi-regular-webfont.woff2)
-      format('woff2');
+    url('/fonts/ideogramas-bi/ideogramas_bi-regular-webfont.woff2')
+      format('woff2'),
+    url('/fonts/ideogramas-bi/ideogramas_bi-regular-webfont.woff')
+      format('woff');
 }
 
 @font-face {
   font-family: 'ideograma-radial';
   src:
-    url(../fonts/ideogramas-rad/ideogramas_rad-regular-webfont.woff)
-      format('woff'),
-    url(../fonts/ideogramas-rad/ideogramas_rad-regular-webfont.woff2)
-      format('woff2');
+    url('/fonts/ideogramas-rad/ideogramas_rad-regular-webfont.woff2')
+      format('woff2'),
+    url('/fonts/ideogramas-rad/ideogramas_rad-regular-webfont.woff')
+      format('woff');
 }
 
 .ideograma-bilateral {
